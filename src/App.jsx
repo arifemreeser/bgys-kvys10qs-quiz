@@ -66,23 +66,23 @@ function App() {
   
     firstPage.drawText(userInfo.fullName, {
       x: 105,
-      y: 503,
+      y: 545,
       size: 11,
       font,
       color: rgb(0, 0, 0),
     });
     
     firstPage.drawText(`${correctCount}/${questions.length}`, {
-      x: 155,
-      y: 476,
+      x: 148,
+      y: 518,
       size: 11,
       font,
       color: rgb(0, 0, 0),
     });
-   
+    
     firstPage.drawText(`%${successRate}`, {
-      x: 120,
-      y: 450,
+      x: 113,
+      y: 491,
       size: 11,
       font,
       color: rgb(0, 0, 0),
@@ -90,7 +90,7 @@ function App() {
     
     firstPage.drawText(userInfo.educationDate, {
       x: 80,
-      y: 423,
+      y: 465,
       size: 11,
       font,
       color: rgb(0, 0, 0),
